@@ -1,0 +1,243 @@
+@import url('https://fonts.google.com/specimen/DM+Sans?query=DM+Sans');
+ 
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+
+}
+body{
+   width: 1440px;
+   height:1844px; 
+   background: #E5E5E5;
+   padding: 112px 160px 70px 160px;
+   height: 2688px;
+   top: -377px;
+   border-radius: 0px;
+}
+.Navigation{
+   display: flex;
+   gap: 667.64px;
+   align-items: center;
+   justify-content: center;
+}
+.Navigation .logo .logo-img{
+   position: absolute;
+   width: 67.46px;
+   height: 23px;
+   left: 160px;
+   top: 112px;
+  background: #E5E5E5;
+}
+.nav-items ul {
+   display: flex;
+   float: right;
+   list-style: none;
+   gap: 31.35px;
+   top: 115px;
+}
+.nav-items ul a{
+text-decoration: none;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 120%;
+letter-spacing: -0.03em;
+color: #181717;
+}
+.container{
+    position: absolute;
+    width: 1120px;
+    height: 1242px;
+    top: 360px;
+    bottom: 242px;
+    right: 360px;
+    left: 160px;
+    background:#E5E5E5;
+    font-family: 'DM Sans';
+    font-style: normal;
+}
+.container .Name{
+    position: absolute;
+    width: 480px;
+    height: 199px;
+}
+.container .Name p{
+font-weight: 500;
+font-size: 60px;
+line-height: 97.2%;
+letter-spacing: -0.03em;
+color: #181717;
+
+}
+.container .About{
+    position: absolute;
+    width: 575px;
+    height: 359px;
+    top: 231px;
+
+}
+.container .About{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 117%;
+letter-spacing: -0.03em;
+color: #606060;
+}
+.container .image{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.software-skills .software{
+    position: absolute;
+    width: 124px;
+    height: 20px;
+    top:729px;
+}
+.software-skills .software p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 121.5%;
+letter-spacing: -0.03em;
+text-decoration-line: underline;
+color: #181717;
+}
+.software-skills .content{
+    position: absolute;
+    width:436px;
+    height: 100px;
+    top: 726px;
+    left: 187px;
+}
+.software-skills .content p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 121.5%;
+letter-spacing: -0.03em;
+color: #181717;
+}
+.skills .software-1{
+    position: absolute;
+    width: 124px;
+    height: 20px;
+    top: 901px;
+}
+.skills .software-1 p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 121.5%;
+letter-spacing: -0.03em;
+text-decoration-line: underline;
+color: #181717;
+}
+.skills .content-1{
+    position: absolute;
+    width:436px;
+    height: 100px;
+    top: 898px;
+    left: 187px;
+}
+.skills .content-1 p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 121.5%;
+    letter-spacing: -0.03em;
+    color: #181717;
+}
+.seperator{
+position: absolute;
+width: 1120px;
+left: calc(50% - 1120px/2);
+top: 1076px;
+
+}
+hr{
+    background: #181717;
+    height: 4px;
+}
+.text{
+position: absolute;
+width: 347px;
+height: 71px;
+top: 1149px;
+}
+.text p{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 117%;
+letter-spacing: -0.03em;
+color: #181717;
+}
+.Email{
+    position: absolute;
+    width: 372px;
+    height: 86px;
+    top: 1156px;
+    left: 669px;
+}
+.Email p{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 117%;
+letter-spacing: -0.03em;
+color: #181717;
+}
+.links{
+    display: flex;
+    gap: 519.82px;
+}
+.links .profile a{
+    position: relative;
+    top: 1412px;
+    bottom: 40px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 120%;
+    letter-spacing: -0.03em;
+    color: #2429AF;
+    text-decoration: none;
+    
+}
+.links .socialmedia-links ul {
+display: flex;
+list-style: none;
+position: absolute;
+gap: 31.74px;
+top:1412px ;
+bottom: 40px;
+
+}
+.links .socialmedia-links ul a{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 120%;
+letter-spacing: -0.03em;
+color: #181717;
+text-decoration: none;
+}
+.arrow{
+    position: absolute;
+    bottom: -35px;
+    left: 150px;
+}
+
